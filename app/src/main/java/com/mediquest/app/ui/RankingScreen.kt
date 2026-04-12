@@ -17,14 +17,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mediquest.app.model.RankingEntry
-import com.mediquest.app.model.User
-import com.mediquest.app.viewmodel.MediQuestViewModel
+import com.mediquest.app.data.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun RankingScreen(
-    vm: MediQuestViewModel,
+    vm: VIBViewModel,
     onBack: () -> Unit
 ) {
     val ranking by vm.globalRanking.collectAsState()

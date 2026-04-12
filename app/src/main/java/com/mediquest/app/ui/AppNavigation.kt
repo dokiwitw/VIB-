@@ -2,7 +2,6 @@ package com.mediquest.app.ui
 
 import androidx.compose.runtime.*
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.mediquest.app.viewmodel.MediQuestViewModel
 
 sealed class Screen {
     object Splash   : Screen()
@@ -12,7 +11,7 @@ sealed class Screen {
 }
 
 @Composable
-fun AppNavigation(vm: MediQuestViewModel = viewModel()) {
+fun AppNavigation(vm: VIBViewModel = viewModel()) {
     var current by remember { mutableStateOf<Screen>(Screen.Splash) }
 
     when (current) {

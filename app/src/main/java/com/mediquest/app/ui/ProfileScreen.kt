@@ -19,12 +19,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mediquest.app.model.User
-import com.mediquest.app.viewmodel.MediQuestViewModel
+import com.mediquest.app.data.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ProfileScreen(vm: MediQuestViewModel, onBack: () -> Unit) {
+fun ProfileScreen(vm: VIBViewModel, onBack: () -> Unit) {
     val user by vm.user.collectAsState()
     val progressoNivel = (user.xp % 100) / 100f
     val xpParaProximo  = 100 - (user.xp % 100)

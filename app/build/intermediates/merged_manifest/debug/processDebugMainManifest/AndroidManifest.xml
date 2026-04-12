@@ -43,7 +43,7 @@
     <uses-permission android:name="com.mediquest.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="com.mediquest.app.MediQuestApplication"
+        android:name="com.mediquest.app.VIBApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -67,11 +67,11 @@
         </activity>
 
         <receiver
-            android:name="com.mediquest.app.geofence.GeofenceBroadcastReceiver"
+            android:name="com.mediquest.app.data.GeofenceBroadcastReceiver"
             android:exported="false" >
             <intent-filter>
-                <action android:name="com.mediquest.app.ACTION_GEOFENCE_EVENT" />
-                <action android:name="com.mediquest.app.ACTION_REPORTE_LOTACAO" />
+                <action android:name="com.vib.app.ACTION_GEOFENCE_EVENT" />
+                <action android:name="com.vib.app.ACTION_REPORTE_LOTACAO" />
             </intent-filter>
         </receiver>
 

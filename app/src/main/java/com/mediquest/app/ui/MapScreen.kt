@@ -23,16 +23,12 @@ import com.google.maps.android.compose.*
 import com.google.maps.android.heatmaps.Gradient
 import com.google.maps.android.heatmaps.HeatmapTileProvider
 import com.google.maps.android.heatmaps.WeightedLatLng
-import com.mediquest.app.model.CategoriaLocal
-import com.mediquest.app.model.Hotspot
-import com.mediquest.app.model.LotacaoStatus
-import com.mediquest.app.model.ReporteLotacao
-import com.mediquest.app.viewmodel.MediQuestViewModel
+import com.mediquest.app.data.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MapScreen(
-    vm: MediQuestViewModel = viewModel(),
+    vm: VIBViewModel = viewModel(),
     onRanking: () -> Unit,
     onProfile: () -> Unit
 ) {

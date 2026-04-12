@@ -316,7 +316,7 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\c
 	android:networkSecurityConfig
 		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:21:9-69
 	android:name
-		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:14:9-45
+		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:14:9-39
 activity#com.mediquest.app.MainActivity
 ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:23:9-31:20
 	android:exported
@@ -335,22 +335,22 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:29:27-74
-receiver#com.mediquest.app.geofence.GeofenceBroadcastReceiver
+receiver#com.mediquest.app.data.GeofenceBroadcastReceiver
 ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:exported
 		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:34:13-63
-intent-filter#action:name:com.mediquest.app.ACTION_GEOFENCE_EVENT+action:name:com.mediquest.app.ACTION_REPORTE_LOTACAO
+		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:34:13-59
+intent-filter#action:name:com.vib.app.ACTION_GEOFENCE_EVENT+action:name:com.vib.app.ACTION_REPORTE_LOTACAO
 ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:36:13-39:29
-action#com.mediquest.app.ACTION_GEOFENCE_EVENT
-ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:37:17-82
+action#com.vib.app.ACTION_GEOFENCE_EVENT
+ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:37:25-79
-action#com.mediquest.app.ACTION_REPORTE_LOTACAO
-ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:38:17-83
+		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:37:25-73
+action#com.vib.app.ACTION_REPORTE_LOTACAO
+ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:38:25-80
+		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:38:25-74
 uses-sdk
 INJECTED from C:\VIB!\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\VIB!\app\src\main\AndroidManifest.xml

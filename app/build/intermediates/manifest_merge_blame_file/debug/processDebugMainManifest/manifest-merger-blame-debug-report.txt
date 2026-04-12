@@ -87,8 +87,8 @@
 44
 45    <application
 45-->C:\VIB!\app\src\main\AndroidManifest.xml:13:5-46:19
-46        android:name="com.mediquest.app.MediQuestApplication"
-46-->C:\VIB!\app\src\main\AndroidManifest.xml:14:9-45
+46        android:name="com.mediquest.app.VIBApplication"
+46-->C:\VIB!\app\src\main\AndroidManifest.xml:14:9-39
 47        android:allowBackup="true"
 47-->C:\VIB!\app\src\main\AndroidManifest.xml:15:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -130,18 +130,18 @@
 68
 69        <receiver
 69-->C:\VIB!\app\src\main\AndroidManifest.xml:33:9-40:20
-70            android:name="com.mediquest.app.geofence.GeofenceBroadcastReceiver"
-70-->C:\VIB!\app\src\main\AndroidManifest.xml:34:13-63
+70            android:name="com.mediquest.app.data.GeofenceBroadcastReceiver"
+70-->C:\VIB!\app\src\main\AndroidManifest.xml:34:13-59
 71            android:exported="false" >
 71-->C:\VIB!\app\src\main\AndroidManifest.xml:35:13-37
 72            <intent-filter>
 72-->C:\VIB!\app\src\main\AndroidManifest.xml:36:13-39:29
-73                <action android:name="com.mediquest.app.ACTION_GEOFENCE_EVENT" />
-73-->C:\VIB!\app\src\main\AndroidManifest.xml:37:17-82
-73-->C:\VIB!\app\src\main\AndroidManifest.xml:37:25-79
-74                <action android:name="com.mediquest.app.ACTION_REPORTE_LOTACAO" />
-74-->C:\VIB!\app\src\main\AndroidManifest.xml:38:17-83
-74-->C:\VIB!\app\src\main\AndroidManifest.xml:38:25-80
+73                <action android:name="com.vib.app.ACTION_GEOFENCE_EVENT" />
+73-->C:\VIB!\app\src\main\AndroidManifest.xml:37:17-76
+73-->C:\VIB!\app\src\main\AndroidManifest.xml:37:25-73
+74                <action android:name="com.vib.app.ACTION_REPORTE_LOTACAO" />
+74-->C:\VIB!\app\src\main\AndroidManifest.xml:38:17-77
+74-->C:\VIB!\app\src\main\AndroidManifest.xml:38:25-74
 75            </intent-filter>
 76        </receiver>
 77

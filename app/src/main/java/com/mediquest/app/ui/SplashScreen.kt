@@ -45,14 +45,14 @@ fun SplashScreen(onFinished: () -> Unit) {
             Text("🗺️", fontSize = 72.sp)
             Spacer(Modifier.height(16.dp))
             Text(
-                "HangSpot",
+                "VIB!",
                 fontSize   = 36.sp,
                 fontWeight = FontWeight.Bold,
                 color      = Color(0xFFC4B5FD)
             )
             Spacer(Modifier.height(8.dp))
             Text(
-                "O Waze das baladas",
+                "O Waze do rolê",
                 fontSize  = 16.sp,
                 color     = Color(0xFF9CA3AF),
                 textAlign = TextAlign.Center

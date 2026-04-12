@@ -60,7 +60,7 @@ class GeofenceBroadcastReceiver : BroadcastReceiver() {
 
         event.triggeringGeofences?.forEach { gf ->
             val id   = gf.requestId
-            val nome = HotspotRepository. vgetHotspot(id)?.nome ?: "Local Desconhecido"
+            val nome = HotspotRepository.getHotspot(id)?.nome ?: "Local Desconhecido"
             NotifHelper.dispararCrowdsourcing(context, id, nome)
         }
     }
@@ -130,9 +130,9 @@ object NotifHelper {
     private fun criarCanal(context: Context) {
         val ch = NotificationChannel(
             MQActions.CHANNEL_ID,
-            "HangSpot — Reporte de Lotação",
+            "VIB! — Reporte de Lotação",
             NotificationManager.IMPORTANCE_HIGH
-        ).apply { description = "Perguntas sobre o movimento em bares e baladas." }
+        ).apply { description = "Perguntas sobre o movimento em locais badalados." }
         (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager)
             .createNotificationChannel(ch)
     }

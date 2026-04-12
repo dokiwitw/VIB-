@@ -40,7 +40,7 @@ object HotspotRepository {
     /**
      * Busca um hotspot localmente pelo ID.
      */
-    fun vgetHotspot(id: String): Hotspot? = _hotspots.value[id]
+    fun getHotspot(id: String): Hotspot? = _hotspots.value[id]
 
     private val asaSulCenter = LatLng(-15.8147, -47.8919)
     private val asaNorteCenter = LatLng(-15.7631, -47.8711)

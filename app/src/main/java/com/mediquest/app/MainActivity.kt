@@ -13,7 +13,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.content.ContextCompat
 import com.mediquest.app.ui.AppNavigation
-import com.mediquest.app.ui.theme.HangSpotTheme
+import com.mediquest.app.ui.theme.VIBTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val context = LocalContext.current
             
-            // Gerenciador de Permissões Críticas (HangSpot requer Localização para Heatmap e Geofences)
+            // Gerenciador de Permissões Críticas (VIB! requer Localização para Heatmap e Geofences)
             val permissionsToRequest = mutableListOf(
                 Manifest.permission.ACCESS_FINE_LOCATION,
                 Manifest.permission.ACCESS_COARSE_LOCATION
@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
                 launcher.launch(permissionsToRequest.toTypedArray())
             }
 
-            HangSpotTheme {
+            VIBTheme {
                 AppNavigation()
             }
         }

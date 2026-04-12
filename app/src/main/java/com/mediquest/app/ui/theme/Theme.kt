@@ -15,7 +15,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun HangSpotTheme(content: @Composable () -> Unit) {
+fun VIBTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = DarkColorScheme,
         content     = content

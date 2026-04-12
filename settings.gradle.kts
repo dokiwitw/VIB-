@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HangSpot"
+rootProject.name = "VIB!"
 include(":app")

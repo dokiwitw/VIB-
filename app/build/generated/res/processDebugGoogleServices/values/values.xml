@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1056529513991</string>
+    <string name="google_api_key" translatable="false">AIzaSyCtqXHFDtbGN-4FB0TPRQkr1YN9Gv-Ug-0</string>
+    <string name="google_app_id" translatable="false">1:1056529513991:android:08e735fab1697c88a8b4a2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCtqXHFDtbGN-4FB0TPRQkr1YN9Gv-Ug-0</string>
+    <string name="google_storage_bucket" translatable="false">ignis-bc4b4.firebasestorage.app</string>
+    <string name="project_id" translatable="false">ignis-bc4b4</string>
+</resources>

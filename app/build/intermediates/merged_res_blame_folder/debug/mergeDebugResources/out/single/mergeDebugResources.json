@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mediquest.app-main-80:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.mediquest.app-main-80:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/drawable_ic_location_pin.xml.flat",
+        "source": "com.mediquest.app-main-80:/drawable/ic_location_pin.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/drawable_ic_ideal.xml.flat",
+        "source": "com.mediquest.app-main-80:/drawable/ic_ideal.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/drawable_ic_vazio.xml.flat",
+        "source": "com.mediquest.app-main-80:/drawable/ic_vazio.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/drawable_ic_lotado.xml.flat",
+        "source": "com.mediquest.app-main-80:/drawable/ic_lotado.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/drawable_ic_notification.xml.flat",
+        "source": "com.mediquest.app-main-80:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mediquest.app-main-80:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mediquest.app-debug-78:/xml_network_security_config.xml.flat",
+        "source": "com.mediquest.app-main-80:/xml/network_security_config.xml"
+    }
+]

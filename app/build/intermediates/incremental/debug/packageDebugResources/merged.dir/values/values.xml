@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neon_purple">#7C3AED</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="status_ideal">#FFC107</color>
+    <color name="status_lotado">#F44336</color>
+    <color name="status_vazio">#2196F3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <string name="app_name">VIB!</string>
+    <string name="gcm_defaultSenderId" translatable="false">1056529513991</string>
+    <string name="google_api_key" translatable="false">AIzaSyCtqXHFDtbGN-4FB0TPRQkr1YN9Gv-Ug-0</string>
+    <string name="google_app_id" translatable="false">1:1056529513991:android:08e735fab1697c88a8b4a2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCtqXHFDtbGN-4FB0TPRQkr1YN9Gv-Ug-0</string>
+    <string name="google_storage_bucket" translatable="false">ignis-bc4b4.firebasestorage.app</string>
+    <string name="notif_channel_desc">Perguntas sobre o movimento em bares e baladas.</string>
+    <string name="notif_channel_name">VIB! — Reporte de Lotação</string>
+    <string name="perm_background_rationale">Para detectar sua presença em locais mesmo com o app fechado, precisamos de localização em segundo plano.</string>
+    <string name="perm_location_rationale">O VIB! precisa da sua localização para mostrar os locais ao redor e ativar o rastreio automático.</string>
+    <string name="project_id" translatable="false">ignis-bc4b4</string>
+    <style name="Theme.HangSpot" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

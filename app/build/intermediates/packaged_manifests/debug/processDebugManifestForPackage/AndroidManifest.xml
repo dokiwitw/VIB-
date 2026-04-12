@@ -53,11 +53,12 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HangSpot" >
+        android:testOnly="true"
+        android:theme="@style/Theme.VIB" >
         <activity
             android:name="com.mediquest.app.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.HangSpot" >
+            android:theme="@style/Theme.VIB" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -28,5 +28,5 @@ string notif_channel_name
 string perm_background_rationale
 string perm_location_rationale
 string project_id
-style Theme.HangSpot
+style Theme.VIB
 xml network_security_config

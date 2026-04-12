@@ -23,23 +23,27 @@ MVP de mapa de hotspots em tempo real com Google Places API, Firestore, Geofenci
 VIB!/
 ├── app/src/main/
 │   ├── java/com/mediquest/app/
+│   │   ├── MainActivity.kt              — Ponto de entrada e gerenciamento de permissões
 │   │   ├── MediQuestApplication.kt      — Configuração Global (Firestore + SDKs)
 │   │   ├── model/
 │   │   │   ├── Models.kt                — Entidades (Hotspot, User, Status)
-│   │   │   ├── HotspotRepository.kt     — Lógica de Cache 24h + Google Places
+│   │   │   ├── HotspotRepository.kt     — Lógica de Cache 24h + Google Places + Batch Writes
 │   │   │   └── UserRepository.kt        — Persistência de usuários no Firestore
 │   │   ├── viewmodel/
 │   │   │   └── MediQuestViewModel.kt    — StateFlow + Integração Real-time
 │   │   ├── geofence/
 │   │   │   ├── GeofenceManager.kt       — Cercas virtuais (Android Limit: 100)
-│   │   │   └── GeofenceBroadcastReceiver.kt — Detecção passiva
+│   │   │   └── GeofenceBroadcastReceiver.kt — Detecção passiva e Notificações
 │   │   ├── work/
-│   │   │   └── SyncHotspotsWorker.kt    — Sync periódico (12h)
+│   │   │   └── SyncHotspotsWorker.kt    — Sync periódico em background (12h)
 │   │   └── ui/
-│   │       ├── MapScreen.kt             — Heatmap Dinâmico (VIB!)
-│   │       ├── HotspotDetailSheet.kt    — Detalhes e Reporte
-│   │       ├── RankingScreen.kt         — Gamificação Global
-│   │       └── ProfileScreen.kt         — Progresso do Usuário
+│   │       ├── theme/                   — Cores Neon e Identidade Visual (VIBTheme)
+│   │       ├── AppNavigation.kt         — Grafo de navegação e transições
+│   │       ├── SplashScreen.kt          — Tela de entrada animada
+│   │       ├── MapScreen.kt             — Heatmap Dinâmico (A "Vibe")
+│   │       ├── HotspotDetailSheet.kt    — Detalhes e Reporte de Lotação
+│   │       ├── RankingScreen.kt         — Gamificação e Leaderboard
+│   │       └── ProfileScreen.kt         — Progresso e XP do Usuário
 ```
 
 ---

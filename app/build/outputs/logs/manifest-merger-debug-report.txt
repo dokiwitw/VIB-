@@ -312,7 +312,7 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\c
 	android:allowBackup
 		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:20:9-46
+		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:20:9-41
 	android:networkSecurityConfig
 		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:21:9-69
 	android:name
@@ -322,7 +322,7 @@ ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:23:9-31:20
 	android:exported
 		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:25:13-36
 	android:theme
-		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:26:13-45
 	android:name
 		ADDED from C:\VIB!\app\src\main\AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

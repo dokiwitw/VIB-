@@ -127,11 +127,11 @@ fun MapScreen(
             val spotData = remember(hotspots) {
                 hotspots.filter { it.categoria != CategoriaLocal.PARQUE }.map { h ->
                     val fatorLotacao = when (h.lotacaoAtual) {
-                        LotacaoStatus.VAZIO -> 0.1
-                        LotacaoStatus.IDEAL -> 0.6
+                        LotacaoStatus.VAZIO -> 0.3 // Aumentado para dar mais "presença" no mapa
+                        LotacaoStatus.IDEAL -> 0.7
                         LotacaoStatus.LOTADO -> 1.0
                     }
-                    val finalWeight = (h.pesoAgregado * fatorLotacao).coerceIn(0.01, 1.0)
+                    val finalWeight = (h.pesoAgregado * fatorLotacao).coerceIn(0.1, 1.0) // Min weight aumentado para 0.1
                     WeightedLatLng(LatLng(h.latitude, h.longitude), finalWeight)
                 }
             }
@@ -139,11 +139,11 @@ fun MapScreen(
             val parkData = remember(hotspots) {
                 hotspots.filter { it.categoria == CategoriaLocal.PARQUE }.map { h ->
                     val fatorLotacao = when (h.lotacaoAtual) {
-                        LotacaoStatus.VAZIO -> 0.05
-                        LotacaoStatus.IDEAL -> 0.2
-                        LotacaoStatus.LOTADO -> 0.4
+                        LotacaoStatus.VAZIO -> 0.2
+                        LotacaoStatus.IDEAL -> 0.5
+                        LotacaoStatus.LOTADO -> 0.8
                     }
-                    val finalWeight = (h.pesoAgregado * fatorLotacao).coerceIn(0.01, 1.0)
+                    val finalWeight = (h.pesoAgregado * fatorLotacao).coerceIn(0.1, 1.0)
                     WeightedLatLng(LatLng(h.latitude, h.longitude), finalWeight)
                 }
             }
@@ -152,16 +152,16 @@ fun MapScreen(
                 if (spotData.isEmpty()) null
                 else HeatmapTileProvider.Builder()
                     .weightedData(spotData)
-                    .radius(50) 
-                    .opacity(0.7) 
+                    .radius(80) // Aumentado de 50 para as bolas se juntarem mais
+                    .opacity(0.8) // Leve aumento na opacidade
                     .gradient(Gradient(
                         intArrayOf(
-                            android.graphics.Color.argb(0, 0, 225, 255),
-                            android.graphics.Color.argb(200, 0, 225, 255),
-                            android.graphics.Color.argb(200, 0, 255, 0),
-                            android.graphics.Color.argb(200, 255, 0, 0)
+                            android.graphics.Color.parseColor("#002D7CFF"), // Totalmente transparente
+                            android.graphics.Color.parseColor("#C82D7CFF"), // Azul (Tranquilo)
+                            android.graphics.Color.parseColor("#C8FFD60A"), // Amarelo (Movimentado)
+                            android.graphics.Color.parseColor("#C8FF3B5C")  // Vermelho (Muito Cheio)
                         ),
-                        floatArrayOf(0.0f, 0.15f, 0.4f, 0.8f)
+                        floatArrayOf(0.0f, 0.25f, 0.6f, 0.9f)
                     ))
                     .build()
             }
@@ -170,16 +170,16 @@ fun MapScreen(
                 if (parkData.isEmpty()) null
                 else HeatmapTileProvider.Builder()
                     .weightedData(parkData)
-                    .radius(50)
-                    .opacity(0.4) 
+                    .radius(80) // Aumentado para maior cobertura
+                    .opacity(0.5)
                     .gradient(Gradient(
                         intArrayOf(
-                            android.graphics.Color.argb(0, 0, 225, 255),
-                            android.graphics.Color.argb(150, 0, 225, 255),
-                            android.graphics.Color.argb(150, 0, 255, 0),
-                            android.graphics.Color.argb(150, 255, 0, 0)
+                            android.graphics.Color.parseColor("#002D7CFF"), // Transparente
+                            android.graphics.Color.parseColor("#962D7CFF"), // Azul
+                            android.graphics.Color.parseColor("#96FFD60A"), // Amarelo
+                            android.graphics.Color.parseColor("#96FF3B5C")  // Vermelho
                         ),
-                        floatArrayOf(0.0f, 0.15f, 0.4f, 0.8f)
+                        floatArrayOf(0.0f, 0.25f, 0.6f, 0.9f)
                     ))
                     .build()
             }
@@ -238,9 +238,9 @@ fun MapScreen(
                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface.copy(0.9f))
                 ) {
                     Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        LegendItem("Muito Cheio", Color.Red)
-                        LegendItem("Movimentado", Color.Green)
-                        LegendItem("Tranquilo", Color.Cyan)
+                        LegendItem("Muito Cheio", Color(0xFFFF3B5C))
+                        LegendItem("Movimentado", Color(0xFFFFD60A))
+                        LegendItem("Tranquilo", Color(0xFF2D7CFF))
                     }
                 }
             }

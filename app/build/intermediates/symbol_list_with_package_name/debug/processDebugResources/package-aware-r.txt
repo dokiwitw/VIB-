@@ -11,6 +11,9 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1090,6 +1093,7 @@ drawable ic_other_sign_in
 drawable ic_passkey
 drawable ic_password
 drawable ic_vazio
+drawable ic_viber_level_1
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low

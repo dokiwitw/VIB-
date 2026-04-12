@@ -1,5 +1,8 @@
 R_DEF: Internal format may change without notice
 local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
 color neon_purple
 color purple_200
 color purple_500
@@ -15,6 +18,7 @@ drawable ic_location_pin
 drawable ic_lotado
 drawable ic_notification
 drawable ic_vazio
+drawable ic_viber_level_1
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

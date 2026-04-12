@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mediquest.app-mergeDebugResources-76:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.mediquest.app-mergeDebugResources-77:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\f426ad58172c62267e7f5b27e9fd2082\\transformed\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\7ce6902b27ffd758e2528a1d4afce69c\\transformed\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\b34e6bb65e64d561b2c98f743904b7e2\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\4970b82658eb6c32e2346e84038f56c2\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

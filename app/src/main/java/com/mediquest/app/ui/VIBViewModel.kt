@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 
 class VIBViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val _user = MutableStateFlow(User(id = "user_${System.currentTimeMillis()}"))
+    private val _user = MutableStateFlow(User(id = "temp_${System.currentTimeMillis()}"))
     val user: StateFlow<User> = _user.asStateFlow()
 
     // Ranking Global vindo do Firebase
@@ -29,7 +29,43 @@ class VIBViewModel(application: Application) : AndroidViewModel(application) {
     val hotspots: StateFlow<List<Hotspot>> = HotspotRepository.startRealtimeSync()
         .combine(_filtroAtivo) { list, filtro ->
             if (filtro == null) list else list.filter { it.categoria == filtro }
-        }.stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
+        }
+        .combine(UserRepository.getActiveVibers()) { listaHotspots, vibersAtivos ->
+            listaHotspots.map { hotspot ->
+                // Conta quantos vibers ativos (não fantasmas) estão dentro de 100m do hotspot
+                val vibersNoLocal = vibersAtivos.count { viber ->
+                    calcularDistancia(viber.latitude, viber.longitude, hotspot.latitude, hotspot.longitude) < 100
+                }
+
+                if (vibersNoLocal > 0) {
+                    // Lógica Automática (Crowd-Count): 1-2 pessoas = IDEAL, 3+ = LOTADO
+                    val novaLotacao = when {
+                        vibersNoLocal >= 3 -> LotacaoStatus.LOTADO
+                        else -> LotacaoStatus.IDEAL
+                    }
+                    hotspot.copy(lotacaoAtual = novaLotacao)
+                } else {
+                    // Backup: Mantém a lotação vinda dos reportes/Google
+                    hotspot
+                }
+            }
+        }
+        .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
+
+    private fun calcularDistancia(lat1: Double, lon1: Double, lat2: Double, lon2: Double): Double {
+        val r = 6371000.0 // Raio da Terra em metros
+        val dLat = Math.toRadians(lat2 - lat1)
+        val dLon = Math.toRadians(lon2 - lon1)
+        val a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2)) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2)
+        val c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+        return r * c
+    }
+
+    // Live Vibe: Vibers ativos no mapa
+    val activeVibers: StateFlow<List<ActiveUser>> = UserRepository.getActiveVibers()
+        .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
 
     private val _loading = MutableStateFlow(false)
     val loading: StateFlow<Boolean> = _loading.asStateFlow()
@@ -40,11 +76,8 @@ class VIBViewModel(application: Application) : AndroidViewModel(application) {
     private val geofenceManager = GeofenceManager(application)
 
     init {
-        // Salva o usuário inicial no Firebase para aparecer no ranking
-        viewModelScope.launch {
-            UserRepository.saveUser(_user.value)
-        }
-
+        carregarOuCriarPerfil()
+        
         // Escuta reportes vindos de notificações (Geofence)
         viewModelScope.launch {
             ReporteEventBus.eventos.collectLatest { reporte ->
@@ -65,12 +98,82 @@ class VIBViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    private fun carregarOuCriarPerfil() {
+        viewModelScope.launch {
+            val context = getApplication<Application>()
+            val localId = UserRepository.getLocalUserId(context)
+            
+            if (localId != null) {
+                val perfilSalvo = UserRepository.getUser(localId)
+                if (perfilSalvo != null) {
+                    _user.value = perfilSalvo
+                    return@launch
+                }
+            }
+            
+            // Se chegou aqui, é um novo usuário ou o ID expirou no banco
+            val novoId = "user_${System.currentTimeMillis()}"
+            val novoUsuario = User(
+                id = novoId,
+                nome = gerarNomeAleatorio()
+            )
+            _user.value = novoUsuario
+            UserRepository.saveLocalUserId(context, novoId)
+            UserRepository.saveUser(novoUsuario)
+        }
+    }
+
+    private fun gerarNomeAleatorio(): String {
+        val prefixos = listOf("Viber", "Night", "Party", "Urban", "Neon", "Street", "Midnight", "Cool")
+        val sufixos = listOf("Walker", "Hunter", "Vibe", "King", "Queen", "Ghost", "Star", "Seeker")
+        val num = (100..999).random()
+        return "${prefixos.random()}${sufixos.random()}_$num"
+    }
+
     fun updateUserName(novoNome: String) {
         viewModelScope.launch {
             val updatedUser = _user.value.copy(nome = novoNome)
             _user.value = updatedUser
             UserRepository.saveUser(updatedUser)
             _snackbarMensagem.value = "Nome atualizado com sucesso!"
+        }
+    }
+
+    /**
+     * Atualiza a posição do usuário no Live Vibe
+     */
+    fun updateLocation(lat: Double, lng: Double) {
+        viewModelScope.launch {
+            UserRepository.updateLivePosition(
+                user = _user.value,
+                lat = lat,
+                lng = lng,
+                avatarId = (_user.value.nivel % 5) + 1,
+                photoBase64 = _user.value.photoBase64
+            )
+        }
+    }
+
+    fun updateProfilePhoto(base64: String) {
+        viewModelScope.launch {
+            val updatedUser = _user.value.copy(photoBase64 = base64)
+            _user.value = updatedUser
+            UserRepository.saveUser(updatedUser)
+        }
+    }
+
+    fun toggleGhostMode(enabled: Boolean) {
+        viewModelScope.launch {
+            val updatedUser = _user.value.copy(isGhost = enabled)
+            _user.value = updatedUser
+            UserRepository.saveUser(updatedUser)
+            
+            // Força uma atualização imediata da posição (que vai deletar ou criar o marcador)
+            val context = getApplication<Application>()
+            // Aqui poderíamos forçar um refresh de localização, mas o loop da MainActivity cuidará disso em 30s
+            
+            _snackbarMensagem.value = if (enabled) "Modo Ghost Ativado! Você sumiu do mapa." 
+                                     else "Modo Ghost Desativado! Você está visível."
         }
     }
 

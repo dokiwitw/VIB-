@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mediquest.app-mergeDebugResources-76:/values-v23/values-v23.xml",
+            "outputFile": "com.mediquest.app-mergeDebugResources-77:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\930f86e02b916d94c451956924ca344e\\transformed\\work-runtime-2.9.1\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\47185227ebe0bf5e91c13ddf94a18231\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\2d62859af73fd4dbfa9e338953df6501\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -33,7 +23,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\f426ad58172c62267e7f5b27e9fd2082\\transformed\\appcompat-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\68d4a5b56db618909b81fc15b70834cb\\transformed\\work-runtime-2.9.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\7ce6902b27ffd758e2528a1d4afce69c\\transformed\\appcompat-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

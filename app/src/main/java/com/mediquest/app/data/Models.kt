@@ -67,13 +67,30 @@ data class Hotspot(
 }
 
 /**
+ * Representa um usuário ativo no mapa em tempo real (Estilo Waze).
+ */
+data class ActiveUser(
+    val id: String = "",
+    val nome: String = "",
+    val latitude: Double = 0.0,
+    val longitude: Double = 0.0,
+    val avatarId: Int = 1, // ID do avatar selecionado
+    val photoBase64: String? = null, // Foto do usuário em Base64 para economizar Cloud Storage
+    val isGhost: Boolean = false, // Se true, não aparece para os outros
+    val lastUpdate: Long = System.currentTimeMillis()
+)
+
+/**
  * Representa o Perfil do Usuário e seu progresso de Gamificação.
  */
 data class User(
     val id: String,
     val nome: String = "Explorador",
     val xp: Long = 0L,
-    val nivel: Int = 1
+    val nivel: Int = 1,
+    val avatarId: Int = 1,
+    val photoBase64: String? = null,
+    val isGhost: Boolean = false
 )
 
 /**

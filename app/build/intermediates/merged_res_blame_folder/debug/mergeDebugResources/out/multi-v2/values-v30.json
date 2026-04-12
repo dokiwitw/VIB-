@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mediquest.app-mergeDebugResources-76:/values-v30/values-v30.xml",
+            "outputFile": "com.mediquest.app-mergeDebugResources-77:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\2aca88cd0300da4854bf64a26246a70e\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\luluc\\.gradle\\caches\\transforms-4\\8b202727f2e9a7d65fb70be6f0050f6f\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

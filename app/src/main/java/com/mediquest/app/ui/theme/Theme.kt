@@ -18,6 +18,8 @@ private val DarkColorScheme = darkColorScheme(
 fun VIBTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = DarkColorScheme,
+        typography = Typography,
+        shapes = Shapes,
         content     = content
     )
 }

@@ -1,6 +1,10 @@
 package com.mediquest.app.ui
 
+import androidx.compose.animation.*
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -10,11 +14,17 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.hapticfeedback.HapticFeedbackType
+import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.ui.platform.LocalContext
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
@@ -32,7 +42,10 @@ fun MapScreen(
     onRanking: () -> Unit,
     onProfile: () -> Unit
 ) {
+    val context = LocalContext.current
+    val haptic = LocalHapticFeedback.current
     val hotspots by vm.hotspots.collectAsState()
+    val activeVibers by vm.activeVibers.collectAsState()
     val snackbarMsg by vm.snackbarMensagem.collectAsState()
     val user by vm.user.collectAsState()
     val loading by vm.loading.collectAsState()
@@ -41,6 +54,13 @@ fun MapScreen(
     val snackbarHostState = remember { SnackbarHostState() }
     var selectedHotspot by remember { mutableStateOf<Hotspot?>(null) }
     var showFilterSheet by remember { mutableStateOf(false) }
+
+    // Animação de entrada do mapa
+    val mapAlpha by animateFloatAsState(
+        targetValue = if (loading) 0.6f else 1f,
+        animationSpec = tween(1000),
+        label = "mapAlpha"
+    )
 
     LaunchedEffect(snackbarMsg) {
         snackbarMsg?.let {
@@ -57,8 +77,10 @@ fun MapScreen(
                     Text("VIB!", fontWeight = FontWeight.Black, letterSpacing = 2.sp)
                 },
                 navigationIcon = {
-                    // Substituída a Estrela pelo Seletor de Filtros
-                    IconButton(onClick = { showFilterSheet = true }) {
+                    IconButton(onClick = { 
+                        haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                        showFilterSheet = true 
+                    }) {
                         BadgedBox(
                             badge = {
                                 if (filtroAtivo != null) {
@@ -81,8 +103,13 @@ fun MapScreen(
             )
         },
         floatingActionButton = {
+            val fabScale by animateFloatAsState(if (loading) 0.8f else 1f, label = "fabScale")
             FloatingActionButton(
-                onClick = { vm.buscarTudo() },
+                onClick = { 
+                    haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                    vm.buscarTudo() 
+                },
+                modifier = Modifier.scale(fabScale),
                 containerColor = MaterialTheme.colorScheme.primaryContainer,
                 contentColor = MaterialTheme.colorScheme.onPrimaryContainer
             ) {
@@ -104,7 +131,6 @@ fun MapScreen(
                         LotacaoStatus.IDEAL -> 0.6
                         LotacaoStatus.LOTADO -> 1.0
                     }
-                    // Peso final = Popularidade do Local (0.1 a 1.0) * Ocupação (0.1 a 1.0)
                     val finalWeight = (h.pesoAgregado * fatorLotacao).coerceIn(0.01, 1.0)
                     WeightedLatLng(LatLng(h.latitude, h.longitude), finalWeight)
                 }
@@ -135,7 +161,7 @@ fun MapScreen(
                             android.graphics.Color.argb(200, 0, 255, 0),
                             android.graphics.Color.argb(200, 255, 0, 0)
                         ),
-                        floatArrayOf(0.0f, 0.15f, 0.4f, 0.8f) // Puxando as cores para mais perto do centro (unificação)
+                        floatArrayOf(0.0f, 0.15f, 0.4f, 0.8f)
                     ))
                     .build()
             }
@@ -153,15 +179,18 @@ fun MapScreen(
                             android.graphics.Color.argb(150, 0, 255, 0),
                             android.graphics.Color.argb(150, 255, 0, 0)
                         ),
-                        floatArrayOf(0.0f, 0.15f, 0.4f, 0.8f) // Mesma lógica de unificação
+                        floatArrayOf(0.0f, 0.15f, 0.4f, 0.8f)
                     ))
                     .build()
             }
 
             GoogleMap(
-                modifier = Modifier.fillMaxSize(),
+                modifier = Modifier.fillMaxSize().scale(mapAlpha),
                 cameraPositionState = cameraPositionState,
                 uiSettings = MapUiSettings(zoomControlsEnabled = false, myLocationButtonEnabled = true),
+                onMyLocationClick = { 
+                    vm.updateLocation(it.latitude, it.longitude)
+                },
                 properties = MapProperties(
                     isMyLocationEnabled = true,
                     mapStyleOptions = MapStyleOptions(MAP_STYLE_JSON)
@@ -170,11 +199,25 @@ fun MapScreen(
                 spotProvider?.let { TileOverlay(tileProvider = it) }
                 parkProvider?.let { TileOverlay(tileProvider = it) }
 
+                activeVibers.filter { it.id != user.id }.forEach { viber ->
+                    val avatarIcon = remember(viber.avatarId) {
+                        ViberMarkers.getIconForLevel(context, viber.avatarId)
+                    }
+                    
+                    Marker(
+                        state = MarkerState(position = LatLng(viber.latitude, viber.longitude)),
+                        title = viber.nome,
+                        icon = avatarIcon,
+                        alpha = 0.9f
+                    )
+                }
+
                 hotspots.forEach { hotspot ->
                     Marker(
                         state = MarkerState(position = LatLng(hotspot.latitude, hotspot.longitude)),
                         alpha = 0.0f,
                         onClick = {
+                            haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
                             selectedHotspot = hotspot
                             true
                         }
@@ -182,16 +225,23 @@ fun MapScreen(
                 }
             }
 
-            // Legenda
-            Card(
-                Modifier.align(Alignment.BottomStart).padding(16.dp),
-                shape = RoundedCornerShape(12.dp),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface.copy(0.9f))
+            // Legenda Reativa com Animação
+            AnimatedVisibility(
+                visible = !loading,
+                enter = slideInVertically { it } + fadeIn(),
+                exit = slideOutVertically { it } + fadeOut(),
+                modifier = Modifier.align(Alignment.BottomStart)
             ) {
-                Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                    LegendItem("Muito Cheio", Color.Red)
-                    LegendItem("Movimentado", Color.Green)
-                    LegendItem("Tranquilo", Color.Cyan)
+                Card(
+                    Modifier.padding(16.dp),
+                    shape = RoundedCornerShape(12.dp),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface.copy(0.9f))
+                ) {
+                    Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        LegendItem("Muito Cheio", Color.Red)
+                        LegendItem("Movimentado", Color.Green)
+                        LegendItem("Tranquilo", Color.Cyan)
+                    }
                 }
             }
         }
@@ -200,16 +250,18 @@ fun MapScreen(
         if (showFilterSheet) {
             ModalBottomSheet(
                 onDismissRequest = { showFilterSheet = false },
-                sheetState = rememberModalBottomSheetState()
+                sheetState = rememberModalBottomSheetState(),
+                shape = RoundedCornerShape(topStart = 16.dp, topEnd = 16.dp)
             ) {
                 Column(Modifier.fillMaxWidth().padding(24.dp)) {
-                    Text("FILTRAR CATEGORIAS", fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                    Text("FILTRAR CATEGORIAS", fontWeight = FontWeight.Bold, fontSize = 18.sp, letterSpacing = 1.sp)
                     Spacer(Modifier.height(16.dp))
                     
                     CategoriaLocal.entries.forEach { cat ->
                         val selecionado = filtroAtivo == cat
                         Surface(
                             onClick = { 
+                                haptic.performHapticFeedback(HapticFeedbackType.LongPress)
                                 vm.setFiltro(if (selecionado) null else cat)
                                 showFilterSheet = false
                             },
@@ -230,10 +282,13 @@ fun MapScreen(
                     
                     if (filtroAtivo != null) {
                         TextButton(
-                            onClick = { vm.setFiltro(null); showFilterSheet = false },
+                            onClick = { 
+                                haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                                vm.setFiltro(null); showFilterSheet = false 
+                            },
                             modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 16.dp)
                         ) {
-                            Text("LIMPAR FILTROS", color = Color.Red)
+                            Text("LIMPAR FILTROS", color = Color.Red, fontWeight = FontWeight.Bold)
                         }
                     }
                     Spacer(Modifier.height(32.dp))
@@ -247,6 +302,7 @@ fun MapScreen(
                 hotspot = hotspot,
                 onDismiss = { selectedHotspot = null },
                 onReporte = { status ->
+                    haptic.performHapticFeedback(HapticFeedbackType.LongPress)
                     vm.processarReporte(ReporteLotacao(hotspot.id, status, user.id))
                 }
             )

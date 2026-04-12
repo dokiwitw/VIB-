@@ -32,58 +32,58 @@
 18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 18-->C:\VIB!\app\src\main\AndroidManifest.xml:11:5-81
 18-->C:\VIB!\app\src\main\AndroidManifest.xml:11:22-78
-19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
-19-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:11:5-76
-19-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:11:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:23:5-68
+19-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:23:22-65
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
-20-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:22-76
-21
-22    <uses-feature
-22-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
-23        android:glEsVersion="0x00020000"
-23-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
-24        android:required="true" />
-24-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
-25
-26    <queries>
-26-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
-27
-28        <!-- Needs to be explicitly declared on Android R+ -->
-29        <package android:name="com.google.android.apps.maps" />
-29-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
-29-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
-30    </queries>
-31
-32    <uses-permission android:name="android.permission.WAKE_LOCK" />
-32-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:5-68
-32-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:22-65
+20-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:24:5-79
+20-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:24:22-76
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:11:5-76
+21-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:11:22-73
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+31    </queries>
+32
 33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-33-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
-33-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+33-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+33-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
 34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-34-->[com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\91a4c7c0828c2490d7dfb91ed27d161a\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:5-79
-34-->[com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\91a4c7c0828c2490d7dfb91ed27d161a\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:22-76
+34-->[com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\bbf4a29559800079152cdd7cba13b054\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:5-79
+34-->[com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\bbf4a29559800079152cdd7cba13b054\transformed\play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:22-76
 35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
-35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
 36    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-36-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
-36-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+36-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+36-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
 37    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-37-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\luluc\.gradle\caches\transforms-4\5ab4b3520fbecb011b6ea1a8e57cb865\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:5-98
-37-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\luluc\.gradle\caches\transforms-4\5ab4b3520fbecb011b6ea1a8e57cb865\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+37-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\luluc\.gradle\caches\transforms-4\d676962919db8b715d14ff1cfa038c82\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+37-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\luluc\.gradle\caches\transforms-4\d676962919db8b715d14ff1cfa038c82\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:22-95
 38
 39    <permission
-39-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\a02920993606b83509742e36ea6808b6\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+39-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\434c2b96dd8372858ee3d64a521c3bab\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
 40        android:name="com.mediquest.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-40-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\a02920993606b83509742e36ea6808b6\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+40-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\434c2b96dd8372858ee3d64a521c3bab\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
 41        android:protectionLevel="signature" />
-41-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\a02920993606b83509742e36ea6808b6\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+41-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\434c2b96dd8372858ee3d64a521c3bab\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
 42
 43    <uses-permission android:name="com.mediquest.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-43-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\a02920993606b83509742e36ea6808b6\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
-43-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\a02920993606b83509742e36ea6808b6\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+43-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\434c2b96dd8372858ee3d64a521c3bab\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\434c2b96dd8372858ee3d64a521c3bab\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
 44
 45    <application
 45-->C:\VIB!\app\src\main\AndroidManifest.xml:13:5-46:19
@@ -92,7 +92,7 @@
 47        android:allowBackup="true"
 47-->C:\VIB!\app\src\main\AndroidManifest.xml:15:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-48-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\a02920993606b83509742e36ea6808b6\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+48-->[androidx.core:core:1.15.0] C:\Users\luluc\.gradle\caches\transforms-4\434c2b96dd8372858ee3d64a521c3bab\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 49        android:debuggable="true"
 50        android:extractNativeLibs="false"
 51        android:icon="@mipmap/ic_launcher"
@@ -151,592 +151,593 @@
 80            android:value="AIzaSyCpSl0DDV6GgJbKHAn6J2QM4ZrMa4sRTxg" />
 80-->C:\VIB!\app\src\main\AndroidManifest.xml:44:13-44
 81
-82        <activity
-82-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:15:9-21:20
-83            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-83-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:16:13-91
-84            android:exported="false"
-84-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:17:13-37
-85            android:label="@string/places_autocomplete_label"
-85-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:18:13-62
-86            android:theme="@style/PlacesAutocompleteOverlay"
-86-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:19:13-61
-87            android:windowSoftInputMode="adjustResize" >
-87-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\2a95d1d5440ea09ed0733bd0305ba398\transformed\places-4.1.0\AndroidManifest.xml:20:13-55
-88        </activity>
-89
-90        <meta-data
-90-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\luluc\.gradle\caches\transforms-4\6d698fc94c0da775c29257309bf95aa3\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:8:9-10:69
-91            android:name="com.google.android.gms.version"
-91-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\luluc\.gradle\caches\transforms-4\6d698fc94c0da775c29257309bf95aa3\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:9:13-58
-92            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
-92-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\luluc\.gradle\caches\transforms-4\6d698fc94c0da775c29257309bf95aa3\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:10:13-66
-93        <uses-library
-93-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
-94            android:name="org.apache.http.legacy"
-94-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
-95            android:required="false" />
-95-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\bceecd633a50eecdd9da6993f7592204\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
-96
-97        <activity
-97-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
-98            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-98-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
-99            android:excludeFromRecents="true"
-99-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
-100            android:exported="true"
-100-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
-101            android:launchMode="singleTask"
-101-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
-102            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-102-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
-103            <intent-filter>
-103-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
-104                <action android:name="android.intent.action.VIEW" />
-104-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
-104-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
-105
-106                <category android:name="android.intent.category.DEFAULT" />
-106-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
-106-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
-107                <category android:name="android.intent.category.BROWSABLE" />
-107-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
-107-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
-108
-109                <data
-109-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
-110                    android:host="firebase.auth"
-110-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
-111                    android:path="/"
-111-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
-112                    android:scheme="genericidp" />
-112-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
-113            </intent-filter>
-114        </activity>
-115        <activity
-115-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
-116            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-116-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
-117            android:excludeFromRecents="true"
-117-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
-118            android:exported="true"
-118-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
-119            android:launchMode="singleTask"
-119-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
-120            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-120-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
-121            <intent-filter>
-121-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
-122                <action android:name="android.intent.action.VIEW" />
-122-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
-122-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
-123
-124                <category android:name="android.intent.category.DEFAULT" />
-124-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
-124-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
-125                <category android:name="android.intent.category.BROWSABLE" />
-125-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
-125-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
-126
-127                <data
-127-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
-128                    android:host="firebase.auth"
-128-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
-129                    android:path="/"
-129-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
-130                    android:scheme="recaptcha" />
-130-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
-131            </intent-filter>
-132        </activity>
-133
-134        <service
-134-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
-135            android:name="com.google.firebase.components.ComponentDiscoveryService"
-135-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:67:13-84
-136            android:directBootAware="true"
-136-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
-137            android:exported="false" >
-137-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:68:13-37
-138            <meta-data
-138-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
-139                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-139-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
-140                android:value="com.google.firebase.components.ComponentRegistrar" />
-140-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\1a09173e24ec4d932d1bf2b3ccaa7f7f\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
-141            <meta-data
-141-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\c5ceef00052a9a57ae176fee133bb6d2\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
-142                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-142-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\c5ceef00052a9a57ae176fee133bb6d2\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
-143                android:value="com.google.firebase.components.ComponentRegistrar" />
-143-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\c5ceef00052a9a57ae176fee133bb6d2\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
-144            <meta-data
-144-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\c5ceef00052a9a57ae176fee133bb6d2\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
-145                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-145-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\c5ceef00052a9a57ae176fee133bb6d2\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
-146                android:value="com.google.firebase.components.ComponentRegistrar" />
-146-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\c5ceef00052a9a57ae176fee133bb6d2\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
-147            <meta-data
-147-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
-148                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-148-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
-149                android:value="com.google.firebase.components.ComponentRegistrar" />
-149-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
-150            <meta-data
-150-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\90dc5c6cf261633cb242906ee790380d\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
-151                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-151-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\90dc5c6cf261633cb242906ee790380d\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
-152                android:value="com.google.firebase.components.ComponentRegistrar" />
-152-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\90dc5c6cf261633cb242906ee790380d\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
-153            <meta-data
-153-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\90dc5c6cf261633cb242906ee790380d\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
-154                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-154-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\90dc5c6cf261633cb242906ee790380d\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
-155                android:value="com.google.firebase.components.ComponentRegistrar" />
-155-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\90dc5c6cf261633cb242906ee790380d\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
-156            <meta-data
-156-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\16f9c60c19faefcb0787cf6a74e8f2b1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-157                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-157-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\16f9c60c19faefcb0787cf6a74e8f2b1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
-158                android:value="com.google.firebase.components.ComponentRegistrar" />
-158-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\16f9c60c19faefcb0787cf6a74e8f2b1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
-159            <meta-data
-159-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-160                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-160-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
-161                android:value="com.google.firebase.components.ComponentRegistrar" />
-161-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-162        </service>
-163        <service
-163-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
-164            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
-164-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
-165            android:enabled="true"
-165-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
-166            android:exported="false" >
-166-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
-167            <meta-data
-167-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
-168                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
-168-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
-169                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
-169-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
-170        </service>
-171
-172        <activity
-172-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
-173            android:name="androidx.credentials.playservices.HiddenActivity"
-173-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
-174            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-174-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
-175            android:enabled="true"
-175-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
-176            android:exported="false"
-176-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
-177            android:fitsSystemWindows="true"
-177-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
-178            android:theme="@style/Theme.Hidden" >
-178-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\d361319c097174d9f1df72ebe18d495e\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
-179        </activity>
-180        <activity
-180-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
-181            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-181-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
-182            android:excludeFromRecents="true"
-182-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
-183            android:exported="false"
-183-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
-184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-184-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
-185        <!--
-186            Service handling Google Sign-In user revocation. For apps that do not integrate with
-187            Google Sign-In, this service will never be started.
-188        -->
-189        <service
-189-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
-190            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-190-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
-191            android:exported="true"
-191-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
-192            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-192-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
-193            android:visibleToInstantApps="true" />
-193-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\b34e6bb65e64d561b2c98f743904b7e2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
-194
-195        <receiver
-195-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
-196            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-196-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
-197            android:enabled="true"
-197-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
-198            android:exported="false" >
-198-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
-199        </receiver>
-200
-201        <service
-201-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
-202            android:name="com.google.android.gms.measurement.AppMeasurementService"
-202-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
-203            android:enabled="true"
-203-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
-204            android:exported="false" />
-204-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
-205        <service
-205-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
-206            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-206-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
-207            android:enabled="true"
-207-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
-208            android:exported="false"
-208-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
-209            android:permission="android.permission.BIND_JOB_SERVICE" />
-209-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\caa8ec7ba05e1ed0a5213f63d255efc0\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
-210
-211        <activity
-211-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\529dec5127974e283385d6a4274039dc\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-212            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-212-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\529dec5127974e283385d6a4274039dc\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-213            android:exported="false"
-213-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\529dec5127974e283385d6a4274039dc\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-214-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\529dec5127974e283385d6a4274039dc\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+82        <provider
+82-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:29:9-37:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:30:13-67
+84            android:authorities="com.mediquest.app.androidx-startup"
+84-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:31:13-68
+85            android:exported="false" >
+85-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:32:13-37
+86            <meta-data
+86-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:34:13-36:52
+87                android:name="androidx.work.WorkManagerInitializer"
+87-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:35:17-68
+88                android:value="androidx.startup" />
+88-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:36:17-49
+89            <meta-data
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luluc\.gradle\caches\transforms-4\32c5641b5d1900789afd1fd7073aacb1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luluc\.gradle\caches\transforms-4\32c5641b5d1900789afd1fd7073aacb1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+91                android:value="androidx.startup" />
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luluc\.gradle\caches\transforms-4\32c5641b5d1900789afd1fd7073aacb1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\luluc\.gradle\caches\transforms-4\93ca938fdea9ccb5a1a61dab8ef165e3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\luluc\.gradle\caches\transforms-4\93ca938fdea9ccb5a1a61dab8ef165e3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+94                android:value="androidx.startup" />
+94-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\luluc\.gradle\caches\transforms-4\93ca938fdea9ccb5a1a61dab8ef165e3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+97                android:value="androidx.startup" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+98        </provider>
+99
+100        <service
+100-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:39:9-45:35
+101            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+101-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:40:13-88
+102            android:directBootAware="false"
+102-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:41:13-44
+103            android:enabled="@bool/enable_system_alarm_service_default"
+103-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:42:13-72
+104            android:exported="false" />
+104-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:43:13-37
+105        <service
+105-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:46:9-52:35
+106            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+106-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:47:13-84
+107            android:directBootAware="false"
+107-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:48:13-44
+108            android:enabled="@bool/enable_system_job_service_default"
+108-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:49:13-70
+109            android:exported="true"
+109-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:50:13-36
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:51:13-69
+111        <service
+111-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:53:9-59:35
+112            android:name="androidx.work.impl.foreground.SystemForegroundService"
+112-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:54:13-81
+113            android:directBootAware="false"
+113-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:55:13-44
+114            android:enabled="@bool/enable_system_foreground_service_default"
+114-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:56:13-77
+115            android:exported="false" />
+115-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:57:13-37
+116
+117        <receiver
+117-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:61:9-66:35
+118            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+118-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:62:13-88
+119            android:directBootAware="false"
+119-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:63:13-44
+120            android:enabled="true"
+120-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:64:13-35
+121            android:exported="false" />
+121-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:65:13-37
+122        <receiver
+122-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:67:9-77:20
+123            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+123-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:68:13-106
+124            android:directBootAware="false"
+124-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:69:13-44
+125            android:enabled="false"
+125-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:70:13-36
+126            android:exported="false" >
+126-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:71:13-37
+127            <intent-filter>
+127-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:73:13-76:29
+128                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+128-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:17-87
+128-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:25-84
+129                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+129-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:17-90
+129-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:25-87
+130            </intent-filter>
+131        </receiver>
+132        <receiver
+132-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:78:9-88:20
+133            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+133-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:79:13-104
+134            android:directBootAware="false"
+134-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:80:13-44
+135            android:enabled="false"
+135-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:81:13-36
+136            android:exported="false" >
+136-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:82:13-37
+137            <intent-filter>
+137-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:84:13-87:29
+138                <action android:name="android.intent.action.BATTERY_OKAY" />
+138-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:17-77
+138-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:25-74
+139                <action android:name="android.intent.action.BATTERY_LOW" />
+139-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:17-76
+139-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:25-73
+140            </intent-filter>
+141        </receiver>
+142        <receiver
+142-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:89:9-99:20
+143            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+143-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:90:13-104
+144            android:directBootAware="false"
+144-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:91:13-44
+145            android:enabled="false"
+145-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:92:13-36
+146            android:exported="false" >
+146-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:93:13-37
+147            <intent-filter>
+147-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:95:13-98:29
+148                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+148-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:17-83
+148-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:25-80
+149                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+149-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:17-82
+149-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:25-79
+150            </intent-filter>
+151        </receiver>
+152        <receiver
+152-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:100:9-109:20
+153            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+153-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:101:13-103
+154            android:directBootAware="false"
+154-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:102:13-44
+155            android:enabled="false"
+155-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:103:13-36
+156            android:exported="false" >
+156-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:104:13-37
+157            <intent-filter>
+157-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:106:13-108:29
+158                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+158-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:17-79
+158-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:25-76
+159            </intent-filter>
+160        </receiver>
+161        <receiver
+161-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:110:9-121:20
+162            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+162-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:111:13-88
+163            android:directBootAware="false"
+163-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:112:13-44
+164            android:enabled="false"
+164-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:113:13-36
+165            android:exported="false" >
+165-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:114:13-37
+166            <intent-filter>
+166-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:116:13-120:29
+167                <action android:name="android.intent.action.BOOT_COMPLETED" />
+167-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:117:17-79
+167-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:117:25-76
+168                <action android:name="android.intent.action.TIME_SET" />
+168-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:17-73
+168-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:25-70
+169                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+169-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:17-81
+169-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:25-78
+170            </intent-filter>
+171        </receiver>
+172        <receiver
+172-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:122:9-131:20
+173            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+173-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:123:13-99
+174            android:directBootAware="false"
+174-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:124:13-44
+175            android:enabled="@bool/enable_system_alarm_service_default"
+175-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:125:13-72
+176            android:exported="false" >
+176-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:126:13-37
+177            <intent-filter>
+177-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:128:13-130:29
+178                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+178-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:17-98
+178-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:25-95
+179            </intent-filter>
+180        </receiver>
+181        <receiver
+181-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:132:9-142:20
+182            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+182-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:133:13-78
+183            android:directBootAware="false"
+183-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:134:13-44
+184            android:enabled="true"
+184-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:135:13-35
+185            android:exported="true"
+185-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:136:13-36
+186            android:permission="android.permission.DUMP" >
+186-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:137:13-57
+187            <intent-filter>
+187-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:139:13-141:29
+188                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+188-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:17-88
+188-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\68d4a5b56db618909b81fc15b70834cb\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:25-85
+189            </intent-filter>
+190        </receiver>
+191
+192        <activity
+192-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:15:9-21:20
+193            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+193-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:16:13-91
+194            android:exported="false"
+194-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:17:13-37
+195            android:label="@string/places_autocomplete_label"
+195-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:18:13-62
+196            android:theme="@style/PlacesAutocompleteOverlay"
+196-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:19:13-61
+197            android:windowSoftInputMode="adjustResize" >
+197-->[com.google.android.libraries.places:places:4.1.0] C:\Users\luluc\.gradle\caches\transforms-4\acf08c86e9fe902fc97a638d11b068bf\transformed\places-4.1.0\AndroidManifest.xml:20:13-55
+198        </activity>
+199
+200        <meta-data
+200-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\luluc\.gradle\caches\transforms-4\6e27ff87d5e9c1815c892b6a4176b65e\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:8:9-10:69
+201            android:name="com.google.android.gms.version"
+201-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\luluc\.gradle\caches\transforms-4\6e27ff87d5e9c1815c892b6a4176b65e\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:9:13-58
+202            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+202-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\luluc\.gradle\caches\transforms-4\6e27ff87d5e9c1815c892b6a4176b65e\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:10:13-66
+203        <uses-library
+203-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+204            android:name="org.apache.http.legacy"
+204-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+205            android:required="false" />
+205-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\luluc\.gradle\caches\transforms-4\969ff2789eeb3d83a7f7f885228ea270\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+206
+207        <activity
+207-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+208            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+208-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+209            android:excludeFromRecents="true"
+209-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+210            android:exported="true"
+210-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+211            android:launchMode="singleTask"
+211-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+212-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+213            <intent-filter>
+213-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+214                <action android:name="android.intent.action.VIEW" />
+214-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+214-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
 215
-216        <property
-216-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
-217            android:name="android.adservices.AD_SERVICES_CONFIG"
-217-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
-218            android:resource="@xml/ga_ad_services_config" />
-218-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\15efe276f0d0ed9bfd0f0824c42b2847\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
-219
-220        <provider
-220-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-221            android:name="com.google.firebase.provider.FirebaseInitProvider"
-221-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-222            android:authorities="com.mediquest.app.firebaseinitprovider"
-222-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-223            android:directBootAware="true"
-223-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-224            android:exported="false"
-224-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-225            android:initOrder="100" />
-225-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\4791e77b84801e262bd439d70c4ee87c\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-226        <provider
-226-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:29:9-37:20
-227            android:name="androidx.startup.InitializationProvider"
-227-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:30:13-67
-228            android:authorities="com.mediquest.app.androidx-startup"
-228-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:31:13-68
-229            android:exported="false" >
-229-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:32:13-37
-230            <meta-data
-230-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:34:13-36:52
-231                android:name="androidx.work.WorkManagerInitializer"
-231-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:35:17-68
-232                android:value="androidx.startup" />
-232-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:36:17-49
-233            <meta-data
-233-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luluc\.gradle\caches\transforms-4\0e74c5829ad1e5af04c4f27427df98bb\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-234                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-234-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luluc\.gradle\caches\transforms-4\0e74c5829ad1e5af04c4f27427df98bb\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-235                android:value="androidx.startup" />
-235-->[androidx.emoji2:emoji2:1.3.0] C:\Users\luluc\.gradle\caches\transforms-4\0e74c5829ad1e5af04c4f27427df98bb\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-236            <meta-data
-236-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\luluc\.gradle\caches\transforms-4\e15075c88dd5e4d74107757cee354083\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
-237                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-237-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\luluc\.gradle\caches\transforms-4\e15075c88dd5e4d74107757cee354083\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
-238                android:value="androidx.startup" />
-238-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\luluc\.gradle\caches\transforms-4\e15075c88dd5e4d74107757cee354083\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
-239            <meta-data
-239-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-240                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-241                android:value="androidx.startup" />
-241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-242        </provider>
+216                <category android:name="android.intent.category.DEFAULT" />
+216-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+216-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+217                <category android:name="android.intent.category.BROWSABLE" />
+217-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+217-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+218
+219                <data
+219-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+220                    android:host="firebase.auth"
+220-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+221                    android:path="/"
+221-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+222                    android:scheme="genericidp" />
+222-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+223            </intent-filter>
+224        </activity>
+225        <activity
+225-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+226            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+226-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+227            android:excludeFromRecents="true"
+227-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+228            android:exported="true"
+228-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+229            android:launchMode="singleTask"
+229-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+230            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+230-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+231            <intent-filter>
+231-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+232                <action android:name="android.intent.action.VIEW" />
+232-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+232-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+233
+234                <category android:name="android.intent.category.DEFAULT" />
+234-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+234-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+235                <category android:name="android.intent.category.BROWSABLE" />
+235-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+235-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+236
+237                <data
+237-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+238                    android:host="firebase.auth"
+238-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+239                    android:path="/"
+239-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+240                    android:scheme="recaptcha" />
+240-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+241            </intent-filter>
+242        </activity>
 243
 244        <service
-244-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:39:9-45:35
-245            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-245-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:40:13-88
-246            android:directBootAware="false"
-246-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:41:13-44
-247            android:enabled="@bool/enable_system_alarm_service_default"
-247-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:42:13-72
-248            android:exported="false" />
-248-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:43:13-37
-249        <service
-249-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:46:9-52:35
-250            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-250-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:47:13-84
-251            android:directBootAware="false"
-251-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:48:13-44
-252            android:enabled="@bool/enable_system_job_service_default"
-252-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:49:13-70
-253            android:exported="true"
-253-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:50:13-36
-254            android:permission="android.permission.BIND_JOB_SERVICE" />
-254-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:51:13-69
-255        <service
-255-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:53:9-59:35
-256            android:name="androidx.work.impl.foreground.SystemForegroundService"
-256-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:54:13-81
-257            android:directBootAware="false"
-257-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:55:13-44
-258            android:enabled="@bool/enable_system_foreground_service_default"
-258-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:56:13-77
-259            android:exported="false" />
-259-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:57:13-37
-260
-261        <receiver
-261-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:61:9-66:35
-262            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-262-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:62:13-88
-263            android:directBootAware="false"
-263-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:63:13-44
-264            android:enabled="true"
-264-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:64:13-35
-265            android:exported="false" />
-265-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:65:13-37
-266        <receiver
-266-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:67:9-77:20
-267            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-267-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:68:13-106
-268            android:directBootAware="false"
-268-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:69:13-44
-269            android:enabled="false"
-269-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:70:13-36
-270            android:exported="false" >
-270-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:71:13-37
-271            <intent-filter>
-271-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:73:13-76:29
-272                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-272-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:17-87
-272-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:25-84
-273                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-273-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:17-90
-273-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:25-87
-274            </intent-filter>
-275        </receiver>
-276        <receiver
-276-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:78:9-88:20
-277            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-277-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:79:13-104
-278            android:directBootAware="false"
-278-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:80:13-44
-279            android:enabled="false"
-279-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:81:13-36
-280            android:exported="false" >
-280-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:82:13-37
-281            <intent-filter>
-281-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:84:13-87:29
-282                <action android:name="android.intent.action.BATTERY_OKAY" />
-282-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:17-77
-282-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:25-74
-283                <action android:name="android.intent.action.BATTERY_LOW" />
-283-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:17-76
-283-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:25-73
-284            </intent-filter>
-285        </receiver>
-286        <receiver
-286-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:89:9-99:20
-287            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-287-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:90:13-104
-288            android:directBootAware="false"
-288-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:91:13-44
-289            android:enabled="false"
-289-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:92:13-36
-290            android:exported="false" >
-290-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:93:13-37
-291            <intent-filter>
-291-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:95:13-98:29
-292                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-292-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:17-83
-292-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:25-80
-293                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-293-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:17-82
-293-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:25-79
-294            </intent-filter>
-295        </receiver>
-296        <receiver
-296-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:100:9-109:20
-297            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-297-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:101:13-103
-298            android:directBootAware="false"
-298-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:102:13-44
-299            android:enabled="false"
-299-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:103:13-36
-300            android:exported="false" >
-300-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:104:13-37
-301            <intent-filter>
-301-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:106:13-108:29
-302                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-302-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:17-79
-302-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:25-76
-303            </intent-filter>
-304        </receiver>
+244-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+245            android:name="com.google.firebase.components.ComponentDiscoveryService"
+245-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:67:13-84
+246            android:directBootAware="true"
+246-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+247            android:exported="false" >
+247-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:68:13-37
+248            <meta-data
+248-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+249                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+249-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\luluc\.gradle\caches\transforms-4\9648491fd0f1aa15694356a56d7310cc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+251            <meta-data
+251-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\21ed5047abe1dedc642afb690b0d5d9b\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+252                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+252-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\21ed5047abe1dedc642afb690b0d5d9b\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\21ed5047abe1dedc642afb690b0d5d9b\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+254            <meta-data
+254-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\21ed5047abe1dedc642afb690b0d5d9b\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+255                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+255-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\21ed5047abe1dedc642afb690b0d5d9b\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\luluc\.gradle\caches\transforms-4\21ed5047abe1dedc642afb690b0d5d9b\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+257            <meta-data
+257-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+258                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+258-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\0f88864f6ed194c61068403c6f7eba55\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+261                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+261-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\0f88864f6ed194c61068403c6f7eba55\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\0f88864f6ed194c61068403c6f7eba55\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\0f88864f6ed194c61068403c6f7eba55\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+264                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+264-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\0f88864f6ed194c61068403c6f7eba55\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\luluc\.gradle\caches\transforms-4\0f88864f6ed194c61068403c6f7eba55\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+266            <meta-data
+266-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\26b2833c36dc6bb143a287674171c9a5\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+267                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+267-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\26b2833c36dc6bb143a287674171c9a5\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\26b2833c36dc6bb143a287674171c9a5\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+269            <meta-data
+269-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+270                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+270-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+272        </service>
+273        <service
+273-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+274            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+274-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+275            android:enabled="true"
+275-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+276            android:exported="false" >
+276-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+277            <meta-data
+277-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+278                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+278-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+279                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+279-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+280        </service>
+281
+282        <activity
+282-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+283            android:name="androidx.credentials.playservices.HiddenActivity"
+283-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+284            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+284-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+285            android:enabled="true"
+285-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+286            android:exported="false"
+286-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+287            android:fitsSystemWindows="true"
+287-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+288            android:theme="@style/Theme.Hidden" >
+288-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\luluc\.gradle\caches\transforms-4\25088ec7cc1b8a9439252c56b7cd3ae2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+289        </activity>
+290        <activity
+290-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+291            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+291-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+292            android:excludeFromRecents="true"
+292-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+293            android:exported="false"
+293-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+294-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+295        <!--
+296            Service handling Google Sign-In user revocation. For apps that do not integrate with
+297            Google Sign-In, this service will never be started.
+298        -->
+299        <service
+299-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+300            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+300-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+301            android:exported="true"
+301-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+302            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+302-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+303            android:visibleToInstantApps="true" />
+303-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\luluc\.gradle\caches\transforms-4\4970b82658eb6c32e2346e84038f56c2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+304
 305        <receiver
-305-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:110:9-121:20
-306            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-306-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:111:13-88
-307            android:directBootAware="false"
-307-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:112:13-44
-308            android:enabled="false"
-308-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:113:13-36
-309            android:exported="false" >
-309-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:114:13-37
-310            <intent-filter>
-310-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:116:13-120:29
-311                <action android:name="android.intent.action.BOOT_COMPLETED" />
-311-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:117:17-79
-311-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:117:25-76
-312                <action android:name="android.intent.action.TIME_SET" />
-312-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:17-73
-312-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:25-70
-313                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-313-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:17-81
-313-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:25-78
-314            </intent-filter>
-315        </receiver>
-316        <receiver
-316-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:122:9-131:20
-317            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-317-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:123:13-99
-318            android:directBootAware="false"
-318-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:124:13-44
-319            android:enabled="@bool/enable_system_alarm_service_default"
-319-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:125:13-72
-320            android:exported="false" >
-320-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:126:13-37
-321            <intent-filter>
-321-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:128:13-130:29
-322                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-322-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:17-98
-322-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:25-95
-323            </intent-filter>
-324        </receiver>
-325        <receiver
-325-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:132:9-142:20
-326            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-326-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:133:13-78
-327            android:directBootAware="false"
-327-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:134:13-44
-328            android:enabled="true"
-328-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:135:13-35
-329            android:exported="true"
-329-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:136:13-36
-330            android:permission="android.permission.DUMP" >
-330-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:137:13-57
-331            <intent-filter>
-331-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:139:13-141:29
-332                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-332-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:17-88
-332-->[androidx.work:work-runtime:2.9.1] C:\Users\luluc\.gradle\caches\transforms-4\930f86e02b916d94c451956924ca344e\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:25-85
-333            </intent-filter>
-334        </receiver>
-335
-336        <activity
-336-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\c07ec8575fdcf0732b16238a2f470aef\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-337            android:name="androidx.compose.ui.tooling.PreviewActivity"
-337-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\c07ec8575fdcf0732b16238a2f470aef\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-338            android:exported="true" />
-338-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\c07ec8575fdcf0732b16238a2f470aef\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-339        <activity
-339-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\22970b3e2bbb76fff99acd3d9659992d\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
-340            android:name="androidx.activity.ComponentActivity"
-340-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\22970b3e2bbb76fff99acd3d9659992d\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
-341            android:exported="true" />
-341-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\22970b3e2bbb76fff99acd3d9659992d\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
-342
-343        <uses-library
-343-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\luluc\.gradle\caches\transforms-4\4ee83976ed16547d4d23927d8fec50da\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-344            android:name="android.ext.adservices"
-344-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\luluc\.gradle\caches\transforms-4\4ee83976ed16547d4d23927d8fec50da\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-345            android:required="false" />
-345-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\luluc\.gradle\caches\transforms-4\4ee83976ed16547d4d23927d8fec50da\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
-346
-347        <service
-347-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\df899ac2cc02f0b7c7de2a7aaca0ec12\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
-348            android:name="androidx.room.MultiInstanceInvalidationService"
-348-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\df899ac2cc02f0b7c7de2a7aaca0ec12\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
-349            android:directBootAware="true"
-349-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\df899ac2cc02f0b7c7de2a7aaca0ec12\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
-350            android:exported="false" />
-350-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\df899ac2cc02f0b7c7de2a7aaca0ec12\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
-351        <service
-351-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\b04d00fa7001679949a7629cce05a828\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
-352            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-352-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\b04d00fa7001679949a7629cce05a828\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
-353            android:exported="false" >
-353-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\b04d00fa7001679949a7629cce05a828\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
-354            <meta-data
-354-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\b04d00fa7001679949a7629cce05a828\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
-355                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-355-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\b04d00fa7001679949a7629cce05a828\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
-356                android:value="cct" />
-356-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\b04d00fa7001679949a7629cce05a828\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
-357        </service>
-358        <service
-358-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\c25f77cd529a1540c1c5525893cab6e4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
-359            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-359-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\c25f77cd529a1540c1c5525893cab6e4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
-360            android:exported="false"
-360-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\c25f77cd529a1540c1c5525893cab6e4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
-361            android:permission="android.permission.BIND_JOB_SERVICE" >
-361-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\c25f77cd529a1540c1c5525893cab6e4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
-362        </service>
-363
-364        <receiver
-364-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\c25f77cd529a1540c1c5525893cab6e4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
-365            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-365-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\c25f77cd529a1540c1c5525893cab6e4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132
-366            android:exported="false" />
-366-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\c25f77cd529a1540c1c5525893cab6e4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
-367        <receiver
-367-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-368            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-368-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-369            android:directBootAware="false"
-369-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-370            android:enabled="true"
-370-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-371            android:exported="true"
-371-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-372            android:permission="android.permission.DUMP" >
-372-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-373            <intent-filter>
-373-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-374                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-374-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-374-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-375            </intent-filter>
-376            <intent-filter>
-376-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-377                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-377-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-377-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-378            </intent-filter>
-379            <intent-filter>
-379-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-380                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-380-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-380-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-381            </intent-filter>
-382            <intent-filter>
-382-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-383                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-383-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-383-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\244a82f31dfc57ccc1dd71556b04e1b6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-384            </intent-filter>
-385        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
-386        <activity
-386-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\5f11d13be78adc6cc0627d723d935f93\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
-387            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-387-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\5f11d13be78adc6cc0627d723d935f93\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
-388            android:exported="false"
-388-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\5f11d13be78adc6cc0627d723d935f93\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
-389            android:stateNotNeeded="true"
-389-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\5f11d13be78adc6cc0627d723d935f93\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
-390            android:theme="@style/Theme.PlayCore.Transparent" />
-390-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\5f11d13be78adc6cc0627d723d935f93\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
-391    </application>
-392
-393</manifest>
+305-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+306            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+306-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+307            android:enabled="true"
+307-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+308            android:exported="false" >
+308-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+309        </receiver>
+310
+311        <service
+311-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+312            android:name="com.google.android.gms.measurement.AppMeasurementService"
+312-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+313            android:enabled="true"
+313-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+314            android:exported="false" />
+314-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+315        <service
+315-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+316            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+316-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+317            android:enabled="true"
+317-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+318            android:exported="false"
+318-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+319            android:permission="android.permission.BIND_JOB_SERVICE" />
+319-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\5653c8ab25efc1bc1a4274a6cea9ae47\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+320
+321        <activity
+321-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\2c11a545aa10711530e1da33754d9367\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+322            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+322-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\2c11a545aa10711530e1da33754d9367\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+323            android:exported="false"
+323-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\2c11a545aa10711530e1da33754d9367\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+324            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+324-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\luluc\.gradle\caches\transforms-4\2c11a545aa10711530e1da33754d9367\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+325
+326        <property
+326-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+327            android:name="android.adservices.AD_SERVICES_CONFIG"
+327-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+328            android:resource="@xml/ga_ad_services_config" />
+328-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\luluc\.gradle\caches\transforms-4\79dbadb0dafa6945facd04c82a94f421\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+329
+330        <provider
+330-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+331            android:name="com.google.firebase.provider.FirebaseInitProvider"
+331-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+332            android:authorities="com.mediquest.app.firebaseinitprovider"
+332-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+333            android:directBootAware="true"
+333-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+334            android:exported="false"
+334-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+335            android:initOrder="100" />
+335-->[com.google.firebase:firebase-common:21.0.0] C:\Users\luluc\.gradle\caches\transforms-4\e78f9e31df4dc683ef4e4eb43321aee4\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+336
+337        <uses-library
+337-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\luluc\.gradle\caches\transforms-4\3fb8dc511ce267668ba6048a55b320b9\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+338            android:name="android.ext.adservices"
+338-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\luluc\.gradle\caches\transforms-4\3fb8dc511ce267668ba6048a55b320b9\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+339            android:required="false" />
+339-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\luluc\.gradle\caches\transforms-4\3fb8dc511ce267668ba6048a55b320b9\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+340
+341        <activity
+341-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\10db14625910e846b78b156c05d724bc\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+342            android:name="androidx.compose.ui.tooling.PreviewActivity"
+342-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\10db14625910e846b78b156c05d724bc\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+343            android:exported="true" />
+343-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\10db14625910e846b78b156c05d724bc\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+344        <activity
+344-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\c8c8a2de1e19d4303dff0aba11cb2f05\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+345            android:name="androidx.activity.ComponentActivity"
+345-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\c8c8a2de1e19d4303dff0aba11cb2f05\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+346            android:exported="true" />
+346-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\luluc\.gradle\caches\transforms-4\c8c8a2de1e19d4303dff0aba11cb2f05\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+347
+348        <service
+348-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\f9c4161b46a8a73dd9ddf878649f4878\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+349            android:name="androidx.room.MultiInstanceInvalidationService"
+349-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\f9c4161b46a8a73dd9ddf878649f4878\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+350            android:directBootAware="true"
+350-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\f9c4161b46a8a73dd9ddf878649f4878\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+351            android:exported="false" />
+351-->[androidx.room:room-runtime:2.5.0] C:\Users\luluc\.gradle\caches\transforms-4\f9c4161b46a8a73dd9ddf878649f4878\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+352        <service
+352-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\e1f46a12fe1686de75a1d5925376ef9f\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
+353            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+353-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\e1f46a12fe1686de75a1d5925376ef9f\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
+354            android:exported="false" >
+354-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\e1f46a12fe1686de75a1d5925376ef9f\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
+355            <meta-data
+355-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\e1f46a12fe1686de75a1d5925376ef9f\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
+356                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+356-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\e1f46a12fe1686de75a1d5925376ef9f\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
+357                android:value="cct" />
+357-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\e1f46a12fe1686de75a1d5925376ef9f\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
+358        </service>
+359        <service
+359-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\52d0447d62faf1aae5b968b67fa7ba7c\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
+360            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+360-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\52d0447d62faf1aae5b968b67fa7ba7c\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
+361            android:exported="false"
+361-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\52d0447d62faf1aae5b968b67fa7ba7c\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
+362            android:permission="android.permission.BIND_JOB_SERVICE" >
+362-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\52d0447d62faf1aae5b968b67fa7ba7c\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
+363        </service>
+364
+365        <receiver
+365-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\52d0447d62faf1aae5b968b67fa7ba7c\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
+366            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+366-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\52d0447d62faf1aae5b968b67fa7ba7c\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132
+367            android:exported="false" />
+367-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\luluc\.gradle\caches\transforms-4\52d0447d62faf1aae5b968b67fa7ba7c\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
+368        <receiver
+368-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+369            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+369-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+370            android:directBootAware="false"
+370-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+371            android:enabled="true"
+371-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+372            android:exported="true"
+372-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+373            android:permission="android.permission.DUMP" >
+373-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+374            <intent-filter>
+374-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+375                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+376            </intent-filter>
+377            <intent-filter>
+377-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+378                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+379            </intent-filter>
+380            <intent-filter>
+380-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+381                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+381-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+381-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+382            </intent-filter>
+383            <intent-filter>
+383-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+384                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+384-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+384-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\luluc\.gradle\caches\transforms-4\f77e14984aa5b8ab8b00ddc3dac0ecb5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+385            </intent-filter>
+386        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+387        <activity
+387-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\8f9643b32685ae8ebb735bbfa8dea075\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+388            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+388-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\8f9643b32685ae8ebb735bbfa8dea075\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+389            android:exported="false"
+389-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\8f9643b32685ae8ebb735bbfa8dea075\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+390            android:stateNotNeeded="true"
+390-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\8f9643b32685ae8ebb735bbfa8dea075\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+391            android:theme="@style/Theme.PlayCore.Transparent" />
+391-->[com.google.android.play:core-common:2.0.3] C:\Users\luluc\.gradle\caches\transforms-4\8f9643b32685ae8ebb735bbfa8dea075\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+392    </application>
+393
+394</manifest>

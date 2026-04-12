@@ -53,7 +53,8 @@ data class Hotspot(
     val horaFechamento: Int = 2,  // 0-23
     val endereco: String = "Brasília, DF",
     val nota: Double = 0.0,
-    val numAvaliacoes: Int = 0
+    val numAvaliacoes: Int = 0,
+    val vibPassBenefits: String? = null // Benefícios do VIB! Pass (ex: "1 Drink Grátis")
 ) {
     fun estaAberto(): Boolean {
         val agora = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
@@ -90,7 +91,8 @@ data class User(
     val nivel: Int = 1,
     val avatarId: Int = 1,
     val photoBase64: String? = null,
-    val isGhost: Boolean = false
+    val isGhost: Boolean = false,
+    val hasVibPass: Boolean = false // Status de assinatura do VIB! Pass
 )
 
 /**

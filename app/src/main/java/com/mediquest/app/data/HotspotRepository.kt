@@ -61,6 +61,7 @@ object HotspotRepository {
                     val categoria = CategoriaLocal.valueOf(doc.getString("categoria") ?: "OUTROS")
                     val numAvaliacoes = doc.getLong("numAvaliacoes")?.toInt() ?: 0
                     val nota = doc.getDouble("nota") ?: 0.0
+                    val vibPassBenefits = doc.getString("vibPassBenefits")
 
                     // Recalcula a lotação em tempo real baseada no horário atual do dispositivo
                     val lotacaoCalculada = recalcularLotacaoDinamica(hAbertura, hFechamento, categoria, numAvaliacoes, nota)
@@ -79,7 +80,8 @@ object HotspotRepository {
                         horaFechamento = hFechamento,
                         endereco = doc.getString("endereco") ?: "Brasília, DF",
                         nota = nota,
-                        numAvaliacoes = numAvaliacoes
+                        numAvaliacoes = numAvaliacoes,
+                        vibPassBenefits = vibPassBenefits
                     )
                 } catch (e: Exception) { null }
             } ?: emptyList<Hotspot>()
@@ -109,6 +111,7 @@ object HotspotRepository {
                 "endereco" to hotspot.endereco,
                 "nota" to hotspot.nota,
                 "numAvaliacoes" to hotspot.numAvaliacoes,
+                "vibPassBenefits" to hotspot.vibPassBenefits,
                 "ultimaAtualizacao" to System.currentTimeMillis()
             ),
             SetOptions.merge()
@@ -227,6 +230,7 @@ object HotspotRepository {
                     "endereco" to h.endereco,
                     "nota" to h.nota,
                     "numAvaliacoes" to h.numAvaliacoes,
+                    "vibPassBenefits" to h.vibPassBenefits,
                     "ultimaAtualizacao" to System.currentTimeMillis()
                 ), SetOptions.merge())
             }

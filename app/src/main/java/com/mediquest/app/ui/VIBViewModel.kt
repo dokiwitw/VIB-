@@ -177,6 +177,16 @@ class VIBViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    fun toggleVibPass(enabled: Boolean) {
+        viewModelScope.launch {
+            val updatedUser = _user.value.copy(hasVibPass = enabled)
+            _user.value = updatedUser
+            UserRepository.saveUser(updatedUser)
+            _snackbarMensagem.value = if (enabled) "VIB! Pass Ativado! Aproveite seus benefícios." 
+                                     else "VIB! Pass Desativado."
+        }
+    }
+
     fun setFiltro(categoria: CategoriaLocal?) {
         _filtroAtivo.value = categoria
     }

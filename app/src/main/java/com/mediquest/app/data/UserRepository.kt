@@ -37,7 +37,8 @@ object UserRepository {
                     nivel = doc.getLong("nivel")?.toInt() ?: 1,
                     avatarId = doc.getLong("avatarId")?.toInt() ?: 1,
                     photoBase64 = doc.getString("photoBase64"),
-                    isGhost = doc.getBoolean("isGhost") ?: false
+                    isGhost = doc.getBoolean("isGhost") ?: false,
+                    hasVibPass = doc.getBoolean("hasVibPass") ?: false
                 )
             } else null
         } catch (e: Exception) {
@@ -55,6 +56,7 @@ object UserRepository {
                 "avatarId" to user.avatarId,
                 "photoBase64" to user.photoBase64,
                 "isGhost" to user.isGhost,
+                "hasVibPass" to user.hasVibPass,
                 "ultimaAtividade" to System.currentTimeMillis()
             )
         ).await()

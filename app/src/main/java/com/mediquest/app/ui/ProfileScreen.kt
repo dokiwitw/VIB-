@@ -179,6 +179,46 @@ fun ProfileScreen(vm: VIBViewModel, onBack: () -> Unit) {
 
             Spacer(Modifier.height(16.dp))
 
+            // VIB! Pass Card
+            Card(
+                Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(16.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = if (user.hasVibPass) Color(0xFFFFD700).copy(0.15f) 
+                                     else MaterialTheme.colorScheme.surfaceVariant.copy(0.3f)
+                )
+            ) {
+                Row(
+                    Modifier.padding(20.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Column(Modifier.weight(1f)) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text("🎫 VIB! Pass", fontWeight = FontWeight.Bold)
+                            if (user.hasVibPass) {
+                                Spacer(Modifier.width(8.dp))
+                                Surface(color = Color(0xFFFFD700), shape = CircleShape) {
+                                    Text("ATIVO", modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp), 
+                                         style = MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Black, color = Color.Black)
+                                }
+                            }
+                        }
+                        Text(
+                            if (user.hasVibPass) "Benefícios exclusivos liberados!" 
+                            else "Assine para ganhar drinks e descontos.",
+                            style = MaterialTheme.typography.bodySmall
+                        )
+                    }
+                    Switch(
+                        checked = user.hasVibPass,
+                        onCheckedChange = { vm.toggleVibPass(it) }
+                    )
+                }
+            }
+
+            Spacer(Modifier.height(16.dp))
+
             // XP Card
             Card(
                 Modifier.fillMaxWidth(),

@@ -2,7 +2,7 @@ package com.mediquest.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// HangSpot Cyber-Night Palette
+// VIB! Cyber-Night Palette
 val CyberBlack     = Color(0xFF05050A)
 val CyberDark      = Color(0xFF0D0D1A)
 val CyberCard      = Color(0xFF14142B)
@@ -16,7 +16,7 @@ val StatusVazio    = NeonCyan
 val StatusIdeal    = NeonLime
 val StatusLotado   = NeonMagenta
 
-// MD3 roles (Dark only - HangSpot is a night app)
+// MD3 roles (Dark only - VIB! is a night app)
 val md_theme_dark_primary            = NeonViolet
 val md_theme_dark_onPrimary          = Color.White
 val md_theme_dark_primaryContainer   = Color(0xFF2D1B69)

@@ -79,6 +79,7 @@ $$V_s = (C_c \times 0.6) + (R_u \times 0.3) + (H_g \times 0.1)$$
 *   **🖼️ Base64 Avatar Engine:** Para maximizar a performance e reduzir custos de infraestrutura, as fotos de perfil são processadas localmente e armazenadas em String Base64 diretamente no documento do usuário no Firestore.
 *   **💰 Token-Saving Architecture (Google API Optimization):** Para garantir a viabilidade econômica do MVP, implementamos uma camada de cache distribuído. O app não consulta a Google Places API para cada usuário; em vez disso, o primeiro "Viber" a interagir com uma zona aciona uma atualização no Firestore com um TTL (Time-To-Live) de 24 horas. Todos os outros usuários consomem os dados diretamente do nosso banco, reduzindo o consumo de tokens em até 95%.
 *   **📡 Sincronização Offline & Eficiência de Dados:** Uso da persistência nativa do Firestore e `WorkManager` para garantir que o mapa e o perfil do usuário funcionem perfeitamente mesmo em ambientes de baixa conectividade (comum em baladas e subsolos), evitando requisições redundantes de rede.
+*   **🎫 VIB! Pass (MVP):** Sistema de benefícios integrado. Usuários podem ativar o VIB! Pass para visualizar e resgatar vantagens exclusivas (como drinks grátis ou descontos) diretamente nos Hotspots participantes.
 *   **✨ UI Cyber-Sharp:** Design System proprietário focado em performance:
     *   **Fonte Inter:** Máxima legibilidade em ambientes escuros.
     *   **Sharp Borders (4dp):** Visual industrial e tecnológico.
@@ -109,7 +110,6 @@ Para que a "mágica" do VIB! aconteça, o app solicita:
 ---
 
 ## 🔮 Roadmap Futuro
-*   **VIB! Pass:** Benefícios reais em estabelecimentos para usuários de XP alto.
 *   **IA de Predição:** Algoritmo que prevê a lotação de um local nas próximas 2 horas baseado no fluxo histórico.
 *   **Heatmap de Trajeto:** Visualização da "vibe" das ruas entre os hotspots.
 
